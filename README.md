@@ -7,8 +7,14 @@ User output through a SPI 4x20 OLED display module: Newhaven NHD-0420CW-AB3
 
 Hardware consists of:
 4 n-channel mosfet outputs for 12 or 24VDC peristaltic pumps.
+* CH-1 is for adding water
+* CH-2 mixes the kalkwasser reservoir (using DC motor)
+* CH-3 dose calcium (WIP)
+* CH-4 dose alkalinity (WIP)
 
 Aquarium inputs are three float switches (Max, High, and Low).
 * Max float electrically disables the mosfet outputs
-* High signals water is needed and fed by CH-1
+* High signals water is low and fed by CH-1
 * Low is for an alarm (unimplemented)
+
+
